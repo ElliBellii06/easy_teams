@@ -26,5 +26,10 @@ local busy = exports['easy_teams']:setTeamBusyStatus(source, status)
 print(busy)
 ```
 
+## Server Events
+```lua
+TriggerEvent('teams:triggerTeamEvent', source, eventName, ...)
+```
+
 ## Dependencies
 - [ox_lib](<https://github.com/overextended/ox_lib/releases>)
