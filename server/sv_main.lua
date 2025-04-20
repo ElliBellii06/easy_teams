@@ -193,7 +193,6 @@ AddEventHandler('playerDropped', function()
 end)
 
 -- exports
-
 lib.callback.register('teams:isPlayerTeamLeader', function()
     local src = source
     return isPlayerTeamLeader(src)
